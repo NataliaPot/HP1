@@ -1,0 +1,91 @@
+:root {
+    --main-background-color: #FEFEFE;
+    --main-text-color: #2C2C2C;
+    --yellow: #FFE550;
+    --green: #BBF330;
+    --white: #fff;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white);
+    color: var(--main-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+    font-family: inherit;
+    border: none;
+}
+
+.container {
+    max-width: 1280px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    margin-right: auto;
+}
+
+.header-nav-list {
+    display: flex;
+    gap: 28px;
+}
+
+.header-nav {}
+
+.header-nav-link {
+    display: block;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--main-text-color);
+    padding: 28px 0;
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color: var(--green);
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.header-button {
+    background-color: var(--green);
+    border-radius: 30px;
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 6px 18px;
+    margin-left: 30px;
+}
