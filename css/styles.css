@@ -89,3 +89,42 @@ button {
     padding: 6px 18px;
     margin-left: 30px;
 }
+
+.hero {
+    padding: 14px 0 69px;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-title {
+    max-width: 502px;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 28px;
+}
+
+.hero-text {
+    max-width: 511px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.hero-btn {
+    background-color: var(--green);
+    border-radius: 30px;
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 6px 18px;
+}
+
+.hero-img {
+    border-radius: 291px;
+    border: 26px solid var(--yellow)
+}
