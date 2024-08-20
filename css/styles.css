@@ -128,3 +128,64 @@ button {
     border-radius: 291px;
     border: 26px solid var(--yellow)
 }
+
+.about {
+    background-color: var(--yellow);
+    padding-top: 113px;
+    padding-bottom: 124px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-title {
+    max-width: 526px;
+    font-size: 42px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.about-desc {
+    max-width: 500px;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+}
+
+.about-list {
+    display: flex;
+    gap: 67px;
+    margin-bottom: 32px;
+}
+
+.about-item {
+    width: calc((100% - 67px)/2);
+}
+
+.about-list-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+}
+
+.about-list-text {
+    max-width: 253px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.about-btn {
+    padding: 10px 22px;
+    background: #FFFFFF;
+    border: 2px solid #7EB101;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--main-text-color);
+}
