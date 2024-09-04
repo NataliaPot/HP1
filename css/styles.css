@@ -228,3 +228,25 @@ button {
     width: 35px;
     height: 35px;
 }
+
+.swiper {
+    width: 1300px;
+    height: 400px;
+}
+
+.swiper-wrapper {
+    display: flex;
+    gap: 30px;
+}
+
+.swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    background: #EFEFEF;
+    border-radius: 16px;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #02897A;
+}
