@@ -189,3 +189,42 @@ button {
     line-height: 1.5;
     color: var(--main-text-color);
 }
+
+.wrapper {
+    display: flex;
+    gap: 84px;
+    align-items: center;
+}
+
+.wrapper-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.wrapper-item:nth-child(1)::before {
+    display: block;
+    content: "";
+    background-image: url(../images/orange.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+.wrapper-item:nth-child(2)::before {
+    display: block;
+    content: "";
+    background-image: url(../images/red.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
+
+.wrapper-item:nth-child(3)::before {
+    display: block;
+    content: "";
+    background-image: url(../images/blue.svg);
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 35px;
+}
